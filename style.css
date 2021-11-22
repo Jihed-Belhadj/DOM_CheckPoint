@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .shopping-cart {
+    width: 650px;
+    height: 423px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+   
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    height: 60px;
+    border-bottom: 1px solid grey;
+    padding: 20px 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+  }
+   
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+   
+  .item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+  }
+  .buttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+  }
+  .remove-btn,
+  .like-btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .remove-btn {
+    
+    position: absolute;
+    bottom: -0px;
+    left: 12px;
+    width: 30px;
+    height: 30px;
+    background: url(https://img.icons8.com/dotty/80/000000/filled-trash.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .remove-btn:hover{
+    border: 2px solid red;
+  }
+   
+  .like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url(https://img.icons8.com/ios/50/000000/like--v1.png);
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+
+  .image {
+    margin-right: 60px;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    
+  }
+
+  .image img{
+    
+    height: 90px;
+    width: 100px;
+    
+  }
+   
+  .description {
+
+    width: 115px;
+    font-size: 5px;
+    
+  }
+   
+  .description span {
+    display: block;
+    font-size: 11px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+  }
+
+  .quantity{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 30px;
+    position: relative;
+  }
+
+  .quantity span {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    font-size: 16px;
+    color:black;
+    font-weight: 300;
+    border: none;
+    
+  }
+   
+  button {
+border: none;
+width: 32px;
+    height: 30px;
+  }
+
+  .total-price {
+    margin: 10px;
+  color: #43484D;
+  margin-top: 25px;
+  }
+
+  
+h3{
+  margin-left: 300px;
+  margin-top: 25px;
+  position: absolute;
+}
+.tot{
+  position: absolute;
+  margin-left:510px;
+  margin-top: 23px;
+  font-size: 25px;
+  color: #43484D;
+
+}
+
+.heart{
+  border: 2px solid red;
+}
